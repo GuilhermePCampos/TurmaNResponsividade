@@ -45,7 +45,13 @@
 }
 
 .lista__menu-item {
-  padding: 1em
+  padding: 1em;
+}
+
+.lista__menu-link {
+  color: var(--roxo); 
+  font-weight: 500; 
+  text-decoration: none;
 }
 
 .container__botao:checked~.lista__menu {

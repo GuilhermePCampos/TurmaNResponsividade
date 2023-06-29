@@ -40,8 +40,13 @@
   display: none;
   position: absolute;
   top: 100%;
+  width: 60vw;
+  background-color: var(--branco);
 }
 
+.lista__menu-item {
+  padding: 1em
+}
 
 .container__botao:checked~.lista__menu {
   display: block;

@@ -2,11 +2,13 @@
 
 :root{
     --cor-de-fundo: #EBECEE;
-    --branco: #FFF
+    --branco: #FFF;
+    --amarelo: #fecd2f;
 }
 
 body{
     background-color: var(--cor-de-fundo);
+    font-family: 'Roboto', sans-serif;
 }
 
 h1{

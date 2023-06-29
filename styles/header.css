@@ -5,7 +5,6 @@
 
   align-items: center;
   position: relative;
-
 }
 
 .cabecalho__menu {
@@ -22,6 +21,17 @@
   align-items: center;
 }
 
+.container__botao {
+  display: none;
+}
+
+.lista__menu-titulo {
+  font-weight: 700;
+  color: var(--amarelo);
+  -webkit-text-stroke-width: 0.15px;
+  -webkit-text-stroke-color: #777777;
+}
+
 .container__image {
   padding: 1em;
 }
@@ -31,6 +41,7 @@
   position: absolute;
   top: 100%;
 }
+
 
 .container__botao:checked~.lista__menu {
   display: block;

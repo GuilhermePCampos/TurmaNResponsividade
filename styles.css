@@ -7,14 +7,13 @@
     --roxo: #C75EEB;      
     --fonte-roboto: 'Roboto', sans-serif;
     --fonte-principal: 'Poppins', sans-serif; 
-    --fonte-Secundaria:  'Josefin Sans', sans-serif;
+    --fonte-secundaria:  'Josefin Sans', sans-serif;
   }
     
   
 
 body{
-    background-color: var(--cor-de-fundo);
-    font-family: var(--fonte-principal);
+    background-color: var(--cor-de-fundo);    
     font-size: 16px;
     font-weight: 400;
 }

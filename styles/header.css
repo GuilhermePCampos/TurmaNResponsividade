@@ -2,7 +2,7 @@
   background-color: var(--branco);
   display: flex;
   justify-content: space-between;  
-
+  font-family: var(--fonte-principal);
   align-items: center;
   position: relative;
 }
@@ -68,6 +68,7 @@
 @media screen and (min-width: 1024px) {
   .container__titulo {
     display: block;
+    font-family: var(--fonte-secundaria);
   }
 
   .container__titulo--negrito {

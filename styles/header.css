@@ -16,7 +16,7 @@
   height: 24px;
 }
 
-.contaner {
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,6 +61,24 @@
   display: block;
 }
 
-.container__titulo--negrito {
-  font-weight: bold;
+.container__titulo {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .container__titulo {
+    display: block;
+  }
+
+  .container__titulo--negrito {
+    font-weight: bold;
+  }
+
+  .cabecalho__menu {
+    display: none;
+  }
+
+  .container .favorito {
+    display: none;
+  }
 }

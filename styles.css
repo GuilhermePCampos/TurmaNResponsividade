@@ -7,7 +7,10 @@
     --roxo: #C75EEB;      
     --fonte-roboto: 'Roboto', sans-serif;
     --fonte-principal: 'Poppins', sans-serif; 
-}
+    --fonte-Secundaria:  'Josefin Sans', sans-serif;
+  }
+    
+  
 
 body{
     background-color: var(--cor-de-fundo);
@@ -15,8 +18,4 @@ body{
     font-size: 16px;
     font-weight: 400;
 
-}
-
-h1{
-    background-color: white;
 }

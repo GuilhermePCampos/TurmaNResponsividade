@@ -18,6 +18,7 @@
 
 .contaner {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -58,4 +59,8 @@
 
 .container__botao:checked~.lista__menu {
   display: block;
+}
+
+.container__titulo--negrito {
+  font-weight: bold;
 }

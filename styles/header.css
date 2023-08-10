@@ -133,8 +133,13 @@
     text-decoration: none;
   }
 
-  .opcoes__botao:checked~.opcoes__rotulo{
-    /* background-color: var(--roxo);    */
+  .opcoes__item {
+    padding: 2em 1em;
+  }
+
+  .opcoes__botao:checked~.opcoes__rotulo{     
+    background: var(--roxo-degrade); 
+    color: white;
   }
 
   .opcoes__botao:checked~.lista-menu {

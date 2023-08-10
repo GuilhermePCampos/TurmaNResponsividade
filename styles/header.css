@@ -66,13 +66,20 @@
 }
 
 @media screen and (min-width: 1024px) {
+
+  .container__botao:checked~.lista__menu {
+    display: none;
+  }
+
   .container__titulo {
     display: block;
     font-family: var(--fonte-secundaria);
+    font-weight: var(--fonte-secundaria-normal);    
+    font-size: 1.875em;
   }
 
-  .container__titulo--negrito {
-    font-weight: bold;
+  .container__titulo--negrito {    
+    font-weight: var(--fonte-secundaria-bold);    
   }
 
   .cabecalho__menu {

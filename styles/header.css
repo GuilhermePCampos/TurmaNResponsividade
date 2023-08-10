@@ -1,7 +1,7 @@
 .cabecalho {
   background-color: var(--branco);
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
   font-family: var(--fonte-principal);
   align-items: center;
   position: relative;
@@ -11,7 +11,7 @@
   display: inline-block;
   background-image: url(../img/Menu.svg);
   background-repeat: no-repeat;
-  background-position: center;  
+  background-position: center;
   width: 24px;
   height: 24px;
 }
@@ -52,8 +52,8 @@
 }
 
 .lista__menu-link {
-  color: var(--roxo); 
-  font-weight: 500; 
+  color: var(--roxo);
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -62,6 +62,10 @@
 }
 
 .container__titulo {
+  display: none;
+}
+
+.opcoes {
   display: none;
 }
 
@@ -74,12 +78,12 @@
   .container__titulo {
     display: block;
     font-family: var(--fonte-secundaria);
-    font-weight: var(--fonte-secundaria-normal);    
+    font-weight: var(--fonte-secundaria-normal);
     font-size: 1.875em;
   }
 
-  .container__titulo--negrito {    
-    font-weight: var(--fonte-secundaria-bold);    
+  .container__titulo--negrito {
+    font-weight: var(--fonte-secundaria-bold);
   }
 
   .cabecalho__menu {
@@ -88,5 +92,62 @@
 
   .container .favorito {
     display: none;
+  }
+
+  .opcoes {
+    display: flex;
+  }
+
+  .opcoes__item {
+    padding: 0 1em;
+    text-transform: uppercase;
+  }
+
+  .opcoes__link {
+    text-decoration: none;
+    color: var(--preto);
+  }
+
+  .opcoes__botao {
+    display: none;
+  }
+
+  .lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+    background-color: var(--branco);
+    border-radius: 0 0 10px 0px;
+  }
+
+  .lista-menu__link {
+    text-decoration: none;
+  }
+
+
+  
+  .lista-menu-link {
+    color: var(--roxo);
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .opcoes__botao:checked~.opcoes__rotulo{
+    /* background-color: var(--roxo);    */
+  }
+
+  .opcoes__botao:checked~.lista-menu {
+    display: block;
+    width: auto;       
+  }
+
+  .lista__menu-item:hover  {
+    background-color: var(--roxo);
+    color: white;
+  }
+
+  .lista__menu-item:hover a {    
+    color: white;
   }
 }
